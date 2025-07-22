@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechPlus Support</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <div class="logo-title">
+        <img src="logo1.png" alt="TechPlus Support Logo" class="logo">
+        <span class="company-name">TechPlus Support</span>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero" id="home">
+    <div class="hero-slider-pro">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="hero-slide-content">
+          <h1>Microsoft 365 Solutions & Migration</h1>
+          <p>Empower your workforce with secure, cloud-based productivity and collaboration tools. From licensing and migration to security and end-user training, we help businesses get the most out of Microsoft 365 boosting efficiency, collaboration, and compliance.</p>
+          <div class="hero-btns">
+            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#contact" class="cta-btn white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="hero-slide-content">
+          <h1>Endpoint Security Experts</h1>
+          <p>Protect your business with advanced endpoint security solutions like Seqrite, Kaspersky, and more. We ensure your devices and data are always safe.</p>
+          <div class="hero-btns">
+            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#contact" class="cta-btn white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="hero-slide-content">
+          <h1>Backup & Disaster Recovery</h1>
+          <p>Comprehensive backup solutions including Acronis, NAS, and more to keep your data safe and recoverable at all times.</p>
+          <div class="hero-btns">
+            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#contact" class="cta-btn white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="hero-slide-content">
+          <h1>UTM & Network Security</h1>
+          <p>Unified Threat Management (UTM) support for Fortigate, SonicWall, Sophos, and more to secure your network and business.</p>
+          <div class="hero-btns">
+            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#contact" class="cta-btn white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <button class="hero-arrow left" onclick="moveHeroSlide(-1)">&#10094;</button>
+      <button class="hero-arrow right" onclick="moveHeroSlide(1)">&#10095;</button>
+      <div class="hero-dots">
+        <span class="dot active" onclick="setHeroSlide(0)"></span>
+        <span class="dot" onclick="setHeroSlide(1)"></span>
+        <span class="dot" onclick="setHeroSlide(2)"></span>
+        <span class="dot" onclick="setHeroSlide(3)"></span>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container about-content">
+      <h2>About TechPlus Support</h2>
+      <blockquote class="mission-quote">“Our mission is to deliver innovative, reliable, and secure IT solutions that help your business grow.”</blockquote>
+      <p>TechPlus Support delivers professional IT services and solutions to help your business thrive. Our experienced team is dedicated to providing reliable support, innovative solutions, and a customer-first approach for businesses of all sizes.</p>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-server service-icon"></i>
+          <h3>Managed IT Services</h3>
+          <p>Comprehensive management and support for your IT infrastructure.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-network-wired service-icon"></i>
+          <h3>Network Solutions</h3>
+          <p>Secure, scalable network design, deployment, and monitoring.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-cloud service-icon"></i>
+          <h3>Cloud Services</h3>
+          <p>Cloud migration, management, and backup for business continuity.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-shield-alt service-icon"></i>
+          <h3>Cybersecurity</h3>
+          <p>Protect your business with advanced security solutions.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-laptop service-icon"></i>
+          <h3>Device Support</h3>
+          <p>Setup, repair, and maintenance for desktops, laptops, and more.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-shield-virus service-icon"></i>
+          <h3>Endpoint Security Support</h3>
+          <p>We provide endpoint protection and support for solutions like Seqrite, Kaspersky, and many more.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-database service-icon"></i>
+          <h3>Backup Solutions</h3>
+          <p>Comprehensive backup solutions including Acronis, NAS, and more to keep your data safe and recoverable.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-fire-extinguisher service-icon"></i>
+          <h3>UTM Support</h3>
+          <p>Unified Threat Management (UTM) support for Fortigate, SonicWall, Sophos, and more to secure your network.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container contact-flex">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:techplus0304@gmail.com">techplus0304@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> +91 9702536370</p>
+        <p><i class="fas fa-map-marker-alt"></i> Kandivali East, Mumbai 400101</p>
+      </div>
+      <form class="contact-form" autocomplete="off" onsubmit="showSuccess(event)">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="cta-btn">Send Message</button>
+        <div id="form-success" class="form-success" style="display:none;">Thank you! Your message has been sent.</div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container footer-flex">
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>&copy; 2024 TechPlus Support. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    function showSuccess(e) {
+      e.preventDefault();
+      document.getElementById('form-success').style.display = 'block';
+    }
+
+    // Pro hero slider
+    let heroSlides = document.querySelectorAll('.hero-slide');
+    let heroDots = document.querySelectorAll('.hero-dots .dot');
+    let heroCurrent = 0;
+    let heroTimer = setInterval(() => moveHeroSlide(1), 5000);
+    function setHeroSlide(idx) {
+      heroSlides[heroCurrent].classList.remove('active');
+      heroDots[heroCurrent].classList.remove('active');
+      heroCurrent = idx;
+      heroSlides[heroCurrent].classList.add('active');
+      heroDots[heroCurrent].classList.add('active');
+      resetHeroTimer();
+    }
+    function moveHeroSlide(dir) {
+      let next = (heroCurrent + dir + heroSlides.length) % heroSlides.length;
+      setHeroSlide(next);
+    }
+    function resetHeroTimer() {
+      clearInterval(heroTimer);
+      heroTimer = setInterval(() => moveHeroSlide(1), 5000);
+    }
+  </script>
+</body>
+</html> 
