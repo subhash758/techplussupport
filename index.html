@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TechPlus Support</title>
-  <link rel="icon" type="image/png" href="logo1.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="icon" type="image/png" href="logo1.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
+  <!-- HEADER -->
+  <header class="glass-header">
     <div class="container header-flex">
-      <a href="#home" class="logo-link" style="display: flex; align-items: center; text-decoration: none;">
-        <img src="logo1.png" alt="TechPlus Support Logo" class="logo">
+      <a href="#home" class="logo-link">
+        <img src="logo1.png" class="logo" />
         <span class="company-name">TechPlus Support</span>
       </a>
+
       <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -26,54 +41,65 @@
       </nav>
     </div>
   </header>
+
+  <!-- HERO SECTION -->
   <section class="hero" id="home">
     <div class="hero-slider-pro">
-      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80');">
+      <div class="hero-slide active"
+        style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80');">
         <div class="hero-overlay"></div>
-        <div class="hero-slide-content">
+        <div class="hero-content fade-in">
           <h1>Microsoft 365 Solutions & Migration</h1>
-          <p>Empower your workforce with secure, cloud-based productivity and collaboration tools. From licensing and migration to security and end-user training, we help businesses get the most out of Microsoft 365 boosting efficiency, collaboration, and compliance.</p>
+          <p>Empower your workforce with secure, cloud-based productivity and collaboration tools.</p>
           <div class="hero-btns">
-            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#services" class="cta-btn neon">Know More</a>
             <a href="#contact" class="cta-btn white">Contact Us</a>
           </div>
         </div>
       </div>
-      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80');">
+
+      <div class="hero-slide"
+        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80');">
         <div class="hero-overlay"></div>
-        <div class="hero-slide-content">
+        <div class="hero-content fade-in">
           <h1>Endpoint Security Experts</h1>
-          <p>Protect your business with advanced endpoint security solutions like Seqrite, Kaspersky, and more. We ensure your devices and data are always safe.</p>
+          <p>Protect your business with advanced security solutions like Seqrite & Kaspersky.</p>
           <div class="hero-btns">
-            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#services" class="cta-btn neon">Know More</a>
             <a href="#contact" class="cta-btn white">Contact Us</a>
           </div>
         </div>
       </div>
-      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80');">
+
+      <div class="hero-slide"
+        style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80');">
         <div class="hero-overlay"></div>
-        <div class="hero-slide-content">
+        <div class="hero-content fade-in">
           <h1>Backup & Disaster Recovery</h1>
-          <p>Comprehensive backup solutions including Acronis, NAS, and more to keep your data safe and recoverable at all times.</p>
+          <p>Backup solutions including Acronis, NAS & cloud recovery.</p>
           <div class="hero-btns">
-            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#services" class="cta-btn neon">Know More</a>
             <a href="#contact" class="cta-btn white">Contact Us</a>
           </div>
         </div>
       </div>
-      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80');">
+
+      <div class="hero-slide"
+        style="background-image: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80');">
         <div class="hero-overlay"></div>
-        <div class="hero-slide-content">
+        <div class="hero-content fade-in">
           <h1>UTM & Network Security</h1>
-          <p>Unified Threat Management (UTM) support for Fortigate, SonicWall, Sophos, and more to secure your network and business.</p>
+          <p>We secure your network with Fortigate, SonicWall & Sophos solutions.</p>
           <div class="hero-btns">
-            <a href="#services" class="cta-btn yellow">Know More</a>
+            <a href="#services" class="cta-btn neon">Know More</a>
             <a href="#contact" class="cta-btn white">Contact Us</a>
           </div>
         </div>
       </div>
+
       <button class="hero-arrow left" onclick="moveHeroSlide(-1)">&#10094;</button>
       <button class="hero-arrow right" onclick="moveHeroSlide(1)">&#10095;</button>
+
       <div class="hero-dots">
         <span class="dot active" onclick="setHeroSlide(0)"></span>
         <span class="dot" onclick="setHeroSlide(1)"></span>
@@ -82,60 +108,77 @@
       </div>
     </div>
   </section>
+
+  <!-- ABOUT -->
   <section id="about">
     <div class="container about-content">
       <h2>About TechPlus Support</h2>
-      <blockquote class="mission-quote">“Our mission is to deliver innovative, reliable, and secure IT solutions that help your business grow.”</blockquote>
-      <p>TechPlus Support delivers professional IT services and solutions to help your business thrive. Our experienced team is dedicated to providing reliable support, innovative solutions, and a customer-first approach for businesses of all sizes.</p>
+      <p class="tagline">“Empowering Businesses With Smart IT Solutions”</p>
+      <p>
+        We deliver professional IT services with a customer-first approach. From Microsoft 365 to network security,
+        we ensure your business stays fast, secure, and efficient.
+      </p>
     </div>
   </section>
+
+  <!-- SERVICES -->
   <section id="services">
     <div class="container">
       <h2>Our Services</h2>
+
       <div class="services-grid">
         <div class="service-card">
-          <i class="fas fa-server service-icon"></i>
+          <i class="fas fa-server"></i>
           <h3>Managed IT Services</h3>
-          <p>Comprehensive management and support for your IT infrastructure.</p>
+          <p>Complete IT infrastructure support & monitoring.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-network-wired service-icon"></i>
+          <i class="fas fa-network-wired"></i>
           <h3>Network Solutions</h3>
-          <p>Secure, scalable network design, deployment, and monitoring.</p>
+          <p>Secure, scalable network design & maintenance.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-cloud service-icon"></i>
+          <i class="fas fa-cloud"></i>
           <h3>Cloud Services</h3>
-          <p>Cloud migration, management, and backup for business continuity.</p>
+          <p>Cloud migration, backup & management.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-shield-alt service-icon"></i>
+          <i class="fas fa-shield-alt"></i>
           <h3>Cybersecurity</h3>
-          <p>Protect your business with advanced security solutions.</p>
+          <p>Protect your business from modern threats.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-laptop service-icon"></i>
+          <i class="fas fa-laptop"></i>
           <h3>Device Support</h3>
-          <p>Setup, repair, and maintenance for desktops, laptops, and more.</p>
+          <p>Repair, setup & optimization of devices.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-shield-virus service-icon"></i>
-          <h3>Endpoint Security Support</h3>
-          <p>We provide endpoint protection and support for solutions like Seqrite, Kaspersky, and many more.</p>
+          <i class="fas fa-shield-virus"></i>
+          <h3>Endpoint Security</h3>
+          <p>Seqrite, Kaspersky & enterprise AV support.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-database service-icon"></i>
+          <i class="fas fa-database"></i>
           <h3>Backup Solutions</h3>
-          <p>Comprehensive backup solutions including Acronis, NAS, and more to keep your data safe and recoverable.</p>
+          <p>Acronis, NAS & cloud backup implementation.</p>
         </div>
+
         <div class="service-card">
-          <i class="fas fa-fire-extinguisher service-icon"></i>
+          <i class="fas fa-fire-extinguisher"></i>
           <h3>UTM Support</h3>
-          <p>Unified Threat Management (UTM) support for Fortigate, SonicWall, Sophos, and more to secure your network.</p>
+          <p>Fortigate, SonicWall, Sophos firewall support.</p>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- CONTACT -->
   <section id="contact">
     <div class="container contact-flex">
       <div class="contact-info">
@@ -144,56 +187,47 @@
         <p><i class="fas fa-phone"></i> +91 9702536370</p>
         <p><i class="fas fa-map-marker-alt"></i> Kandivali East, Mumbai 400101</p>
       </div>
+
       <form class="contact-form" action="https://formspree.io/f/mgvzavgv" method="POST">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
-        <button type="submit" class="cta-btn">Send Message</button>
+        <label>Name</label>
+        <input type="text" name="name" required />
+
+        <label>Email</label>
+        <input type="email" name="email" required />
+
+        <label>Message</label>
+        <textarea name="message" rows="4" required></textarea>
+
+        <button class="cta-btn neon" type="submit">Send Message</button>
       </form>
     </div>
   </section>
+
+  <!-- FOOTER -->
   <footer>
-    <div class="container footer-flex">
-      <div class="footer-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <p>&copy; 2024 TechPlus Support. All rights reserved.</p>
-    </div>
+    <p>© 2024 TechPlus Support — All Rights Reserved.</p>
   </footer>
+
+  <!-- SCRIPT -->
   <script>
-    // Pro hero slider
-    let heroSlides = document.querySelectorAll('.hero-slide');
-    let heroDots = document.querySelectorAll('.hero-dots .dot');
-    let heroCurrent = 0;
-    let heroTimer = setInterval(() => moveHeroSlide(1), 5000);
-    function setHeroSlide(idx) {
-      heroSlides[heroCurrent].classList.remove('active');
-      heroDots[heroCurrent].classList.remove('active');
-      heroCurrent = idx;
-      heroSlides[heroCurrent].classList.add('active');
-      heroDots[heroCurrent].classList.add('active');
-      resetHeroTimer();
+    let slides = document.querySelectorAll(".hero-slide");
+    let dots = document.querySelectorAll(".dot");
+    let current = 0;
+
+    function setHeroSlide(i) {
+      slides[current].classList.remove("active");
+      dots[current].classList.remove("active");
+      current = i;
+      slides[current].classList.add("active");
+      dots[current].classList.add("active");
     }
-    function moveHeroSlide(dir) {
-      let next = (heroCurrent + dir + heroSlides.length) % heroSlides.length;
+
+    function moveHeroSlide(step) {
+      let next = (current + step + slides.length) % slides.length;
       setHeroSlide(next);
     }
-    function resetHeroTimer() {
-      clearInterval(heroTimer);
-      heroTimer = setInterval(() => moveHeroSlide(1), 5000);
-    }
+
+    setInterval(() => moveHeroSlide(1), 5000);
   </script>
 </body>
-</html> 
+</html>
